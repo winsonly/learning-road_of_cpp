@@ -1,7 +1,7 @@
-  // º¯Êı
+  // 4.å‡½æ•°
 /*#include <iostream>
 using namespace std; 
-int main()		//´Ó4¸öÕûÊıÖĞÕÒ×î´óÖµ 
+int main()		//ä»4ä¸ªæ•´æ•°ä¸­æ‰¾æœ€å¤§å€¼ 
 {
 	int Max_4(int a,int b,int c,int d);
 	int a, b, c, d, Max;
@@ -27,7 +27,7 @@ int max(int x,int y)
 	return x>y?x:y;
 }*/
 
-/*#include <iostream>  //Í¨¹ıµİ¹éº¯ÊıÇóÄêÁä 
+/*#include <iostream>  //é€šè¿‡é€’å½’å‡½æ•°æ±‚å¹´é¾„ 
 using namespace std;
 int age(int n);
 int main()
@@ -72,11 +72,11 @@ int fuc(int n)
 
 
 
-//º¯ÊıÄ£°å
+//å‡½æ•°æ¨¡æ¿
 #include <iostream>
 using namespace std;
 
-template <typename T>  //Ä£°åº¯Êı²»ÄÜÔÚ³ÌĞò¿éÀïÉùÃ÷ 
+template <typename T>  //æ¨¡æ¿å‡½æ•°ä¸èƒ½åœ¨ç¨‹åºå—é‡Œå£°æ˜ 
 T func(T a,T b,T c);
 
 int main()
@@ -84,7 +84,7 @@ int main()
 
 	int a,b,c,max;
 	cin >> a >> b >>c;
-	max = func(a,b,c);		//²ÎÊıÀàĞÍ×Ô¶¯´«ÈëĞÎÊ½ÀàĞÍTÖĞ 
+	max = func(a,b,c);		//å‚æ•°ç±»å‹è‡ªåŠ¨ä¼ å…¥å½¢å¼ç±»å‹Tä¸­ 
 	cout << max << endl;
 	
 	return 0;
@@ -103,21 +103,21 @@ T func(T a,T b,T c)
  
  
  
- //º¯ÊıµÄÊôĞÔ£º´æ´¢ÆÚÀà±ğ 
-		//1.autoÉùÃ÷±äÁ¿ £º¶¯Ì¬´æ´¢ 
+ //å‡½æ•°çš„å±æ€§ï¼šå­˜å‚¨æœŸç±»åˆ« 
+		//1.autoå£°æ˜å˜é‡ ï¼šåŠ¨æ€å­˜å‚¨ 
 /*#include<iostream>
 using namespace std;
 int main()
 {
-	auto int a=1, b=2;			//auto¿ÉÊ¡ÂÔ 
+	auto int a=1, b=2;			//autoå¯çœç•¥ 
 	cout << a << b << endl; 
 	
 	return 0;
  } */
  
  
- 		//2. staticÉùÃ÷±äÁ¿£º ¾²Ì¬´æ´¢
-/*#include <iostream>			//¼ÆËãn!µÄÖµ 
+ 		//2. staticå£°æ˜å˜é‡ï¼š é™æ€å­˜å‚¨
+/*#include <iostream>			//è®¡ç®—n!çš„å€¼ 
 using namespace std;
 int main()
 {
@@ -137,7 +137,7 @@ int fac(int n)
 }*/
 
 
-		//3.registerÉùÃ÷±äÁ¿£º´æ´¢ÔÚcpuµÄ¼Ä´æÆ÷ÖĞ£¨Æµ·±Ê¹ÓÃµÄ±äÁ¿£© £¨¾²Ì¬||¶¯Ì¬£© 
+		//3.registerå£°æ˜å˜é‡ï¼šå­˜å‚¨åœ¨cpuçš„å¯„å­˜å™¨ä¸­ï¼ˆé¢‘ç¹ä½¿ç”¨çš„å˜é‡ï¼‰ ï¼ˆé™æ€||åŠ¨æ€ï¼‰ 
 /*#include <iostream>
 using namespace std;
 int main()
@@ -152,13 +152,13 @@ int main()
 int fac(int n)
 {
 	register int i,f=1;
-	for (i=1;i<=n;i++){		//i && f±»Æµ·±µ÷ÓÃ 
+	for (i=1;i<=n;i++){		//i && fè¢«é¢‘ç¹è°ƒç”¨ 
 		f = f*i;
 	}
 	return f; 
 }*/
 
-		//4.externÉùÃ÷±äÁ¿£º ¾²Ì¬´æ´¢ (À©Õ¹ÒÑ¶¨Òå±äÁ¿µÄ×÷ÓÃÓò)
+		//4.externå£°æ˜å˜é‡ï¼š é™æ€å­˜å‚¨ (æ‰©å±•å·²å®šä¹‰å˜é‡çš„ä½œç”¨åŸŸ)
 /*#include <iostream> 
 using namespace std;
 int main()
@@ -173,11 +173,11 @@ int a=1,b=2;*/
 
 
 
-//ÄÚ²¿º¯Êı && Íâ²¿º¯Êı
-		//ÄÚ²¿º¯Êı£¨¾²Ì¬º¯Êı£© £ºÖ»ÄÜÔÚ±¾ÎÄ¼şÖĞ±»µ÷ÓÃ 
+//å†…éƒ¨å‡½æ•° && å¤–éƒ¨å‡½æ•°
+		//å†…éƒ¨å‡½æ•°ï¼ˆé™æ€å‡½æ•°ï¼‰ ï¼šåªèƒ½åœ¨æœ¬æ–‡ä»¶ä¸­è¢«è°ƒç”¨ 
 /*#include <iostream>
 using namespace std;
-static int func(int x,int y);		//±»ÉùÃ÷Îª¾²Ì¬µÄº¯Êı²»ÄÜÔÚ³ÌĞò¿éÖĞÉùÃ÷ 
+static int func(int x,int y);		//è¢«å£°æ˜ä¸ºé™æ€çš„å‡½æ•°ä¸èƒ½åœ¨ç¨‹åºå—ä¸­å£°æ˜ 
 int main()
 {
 
@@ -193,12 +193,12 @@ static int func(int a,int b)
 	return (a+b);
 }*/
 
-	//Íâ²¿º¯Êı£º¿ÉÒÔ±»ÆäËûÎÄ¼şµ÷ÓÃ
-/*#include <iostream>			// #includeÖ¸Áî°üº¬ËùÓĞº¯ÊıÔ­ĞÍ £¬½«Ô´ÎÄ¼şµÄËùÓĞÍâ²¿º¯ÊıµÄ×÷ÓÃÓò¶¼À©´óµ½¸ÃÎÄ¼ş£¨º¯ÊıÔ­ĞÍµÄÉùÃ÷±¾ÖÊ¾ÍÊÇº¯Êı×÷ÓÃÓòµÄÀ©Õ¹£© 
+	//å¤–éƒ¨å‡½æ•°ï¼šå¯ä»¥è¢«å…¶ä»–æ–‡ä»¶è°ƒç”¨
+/*#include <iostream>			// #includeæŒ‡ä»¤åŒ…å«æ‰€æœ‰å‡½æ•°åŸå‹ ï¼Œå°†æºæ–‡ä»¶çš„æ‰€æœ‰å¤–éƒ¨å‡½æ•°çš„ä½œç”¨åŸŸéƒ½æ‰©å¤§åˆ°è¯¥æ–‡ä»¶ï¼ˆå‡½æ•°åŸå‹çš„å£°æ˜æœ¬è´¨å°±æ˜¯å‡½æ•°ä½œç”¨åŸŸçš„æ‰©å±•ï¼‰ 
 using namespace std; 
 int main ()
 {
-	extern void f(void);		//ÉùÃ÷º¯ÊıÔ­ĞÍ£ºÀ©´óº¯Êı×÷ÓÃÓò == void f(void); 
+	extern void f(void);		//å£°æ˜å‡½æ•°åŸå‹ï¼šæ‰©å¤§å‡½æ•°ä½œç”¨åŸŸ == void f(void); 
 	f();
 	cout << endl;
 	return 0;
@@ -212,7 +212,7 @@ void f(void)
 
 
 
-//Í·ÎÄ¼ş
+//å¤´æ–‡ä»¶
 #include <iostream>
 #include "functions.h"
 using namespace std;
